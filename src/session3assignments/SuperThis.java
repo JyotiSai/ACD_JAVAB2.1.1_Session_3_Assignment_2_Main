@@ -12,7 +12,8 @@ public class SuperThis {
 
 	SuperThis() // Default Constructor
 	{
-		System.out.println("SuperThis Constructor can be called via super and this keyword");
+		System.out.println(
+				"SuperThis Constructor can be accessed via super keyword in child class and this keyword in the same class");
 	} // End of SuperThis
 
 	public void super_method() // Method to be accessed using super keyword
